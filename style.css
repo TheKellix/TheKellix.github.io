@@ -398,12 +398,12 @@ nav a:hover{
 }
 .lk-cs>h1{
     text-align: center;
-    color: rgb(50, 50, 136);
+    color: rgb(88,121,167);
     font-size: 250%;
 }
 .lk-cs>h2{
     text-align: center;
-    color: rgb(132, 0, 255);
+    color: rgb(88,121,167);
     font-size: 349%;
     font-family: "Rubik Mono One", monospace;
     font-weight: 400;
@@ -416,3 +416,4 @@ nav a:hover{
     bottom: 26%;
     left: 1px;
 }
+
