@@ -1,0 +1,452 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+header{
+    background-color: rgb(39,38,39);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+h2{
+    color: rgb(73, 74, 146);
+
+
+}
+.logo>img{
+    height: 350px;
+    width: 430px;
+}
+nav{
+    display: flex;
+    gap: 25px;
+    flex-direction: column;
+    align-items: center;
+    
+}
+nav>a{
+    font-size: 35px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition:color 0.3s ease;
+}
+nav a:hover{
+    color:rgb(63, 120, 128);
+    
+}
+
+.helo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    font-size: 22px;
+    color: white;
+    font-weight: bold;
+ 
+}
+.helo>a{
+    text-decoration: none;
+    color: white;
+}
+.helo>a:hover{
+    color: rgb(59, 121, 129);
+    transition:color 0.3s ease;
+}
+
+.twopage{
+    background-image: url(kar.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 30px 30px;
+    width: 1440px;
+    height: 1024px;
+    position: relative;
+    
+    
+    
+
+}
+.twopage>h1{
+    padding: 45px 0px 10px 0px;
+
+}
+.cs{
+    position:absolute;
+    width:113px;
+    height: 144px;
+    top: 770px;
+    left: 1px;
+    
+    
+}
+.fortnite{
+    width:130px;
+    height: 184px;
+}
+.fortnite1{
+    position:absolute;
+    right: 1130px;
+    top: 550px;
+    display: flex;
+    
+}
+.fortnite1>a{
+    text-decoration: none;
+    color: white;
+    top:-20px;
+    position: absolute;
+    left: 10px;
+}
+.pb>a{
+    text-decoration: none;
+    color: white;
+    top:-20px;
+    position: absolute;
+    left: 10px;
+}
+.pb{
+    
+    width:145px;
+    height: 200px;
+
+}
+.pb1{
+    position:absolute;
+    left: 333px;
+    top: 317px;
+    display: flex;
+    
+
+}
+.leg{
+    
+    width:113px;
+    height: 150px;
+
+}
+.leg1{
+    position:absolute;
+    left: 530px;
+    top: 190px;
+    display: flex;
+    
+
+}
+.rb{
+    
+    width:151;
+    height: 151;
+
+}
+.rb1{
+    position:absolute;
+    left: 710px; 
+    top:44px;
+    display: flex;
+
+}
+.mn1{
+    position:absolute;
+    left: 1030px;
+    top: 111px;
+    display: flex;
+}
+.mn{
+    width:113px;
+    height:171px;
+    
+}
+.frame1{
+    display: flex;
+    flex-wrap:wrap;
+    align-content: stretch;
+    padding: 4%;
+    
+}
+
+.frame1>* {
+    padding: 2%;
+    color: rgb(59, 60, 124);
+}
+.frame1{
+    font-size: 200%;
+    display: contents;
+    position: absolute;
+    font-family: 'preconnect';
+    font-weight: bold;
+    
+}
+.cs11{
+    border-radius: 20%;
+}
+.fortnite11{
+    border-radius: 20%;
+}
+.pb11{
+    border-radius: 20%;
+}
+.leg11{
+    border-radius: 20%;
+}
+.rb11{
+    border-radius: 20%;
+}
+.min11{
+    border-radius: 20%;
+}
+.tttt{
+    text-align: center;
+    font-size: 500%;
+    color: rgb(86, 61, 117);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.reg1{
+    padding-right: 80%;
+    padding-bottom: 1%;
+}
+.cs1111{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: 23px;
+    color: rgb(201, 122, 5);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    line-height:1.8;
+    margin: 21px;
+
+}
+.cs1111>p{
+    margin: 5%;
+}
+.fort11{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: 23px;
+    color: rgb(64, 120, 194);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    line-height:1.8;
+    margin: 21px;
+
+}
+.fort1{
+    width: 225px;
+    height: 270px;
+}
+.fort11>p{
+    margin: 5%;
+}
+.pbf11{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: 23px;
+    color: rgb(255, 255, 255);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    line-height:1.8;
+    margin: 21px;
+}
+.pbf11>p{
+    padding: 40px;
+}
+.pbf1{
+    width:345px ;
+    height:453px ;
+    border:1px white solid;
+    border-radius: 30px;
+}
+.lg11{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: 23px;
+    color: rgb(1, 174, 187);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    line-height:1.8;
+    margin: 21px;
+}
+.lg11>p{
+    margin: 5%;
+}
+.rb11111{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: 23px;
+    color: rgb(23, 0, 122);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    line-height:1.8;
+    margin: 21px;
+    size: 40px;
+}
+.rb11111>p{
+    margin: 5%;
+}
+.rb1111{
+    width: 350px;
+}
+.men11{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: 23px;
+    color: rgb(9, 80, 2);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    line-height:1.8;
+    margin: 21px;
+    size: 40px;
+}
+.men11>p{
+    margin: 5%;
+}
+.men1{
+    width: 280px;
+    height: 380px;
+}
+.twopage a{
+    color: white;
+    text-decoration: none;
+}
+.news1{
+    text-align: center;
+    color: rgb(0, 111, 139);
+    font-size: 130px;
+    font-family: initial;
+    margin: 2%;
+}
+.news11{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin: 10%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 150%;
+}
+.cs1{
+    bottom: 1000px;
+}
+.cos11{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: 23px;
+    color: rgb(134, 73, 3);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    line-height:1.8;
+    margin: 21px;
+    size: 40px;
+}
+
+  
+
+.start{
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 250%;
+}
+.startt{
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 250%;
+}
+.lk-cs>a{
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: 23px;
+    color: rgb(255, 255, 255);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    line-height:1.8;
+    margin: 10px;
+    size: 20px;
+    
+}
+.bgр{
+    background-image: url(gamesss.png);
+    
+
+}
+.cos1{
+    position: absolute;
+    justify-content: center;
+    bottom:335px;
+    right: 830px;
+}
+.lk-cs>h1{
+    text-align: center;
+    color: rgb(79, 127, 199);
+    font-size: 250%;
+}
+.lk-cs>h2{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 349%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 3%;
+
+}
+.cs1>a{
+    position: absolute;
+    bottom: 26%;
+    left: 1px;
+}
+.carousel__item {
+    display: flex !important;
+    flex-direction: column;
+    margin-right: 20px;
+}
+slick-slider {
+    display: flex !important;
+    align-items: center;
+    gap: 15%;
+}
+.video-wrapper{
+    position: relative;
+    width: 100%;
+    padding-top: 56%;
+}
+.video-wrapper iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 5px solid black;
+    border-radius: 20px;
+}
+
+.slick-prev, .slick-next{
+    z-index: 100000 !important;
+    color: #fff !important;
+    width: 56px !important;
+    height: 56px !important;
+    font-size: 28px !important;
+}
+.slick-prev{left: 16px !important}
+.slick-next{right: 16px !important}
