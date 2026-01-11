@@ -451,9 +451,4 @@ slick-slider {
 .slick-prev{left: 16px !important}
 .slick-next{right: 16px !important}
 
-.sixseven{
-    color: rgb(85, 165, 185);
-    position: absolute;
-    bottom: 26%;
-    left: 1px;
-}
+
